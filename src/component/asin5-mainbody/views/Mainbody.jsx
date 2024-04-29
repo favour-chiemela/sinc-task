@@ -1,12 +1,12 @@
 import React from "react";
 import "../../asin5-mainbody/styles/Mainbody.css";
 import Navbar from "../../asin5-navbar/views/Navbar";
-import LineStyle from "../../asin5-mainbody/views/LineStyle";
-// import LineStyle from "./Linestyle";
+// import LineStylemain from "./LineStylemain";
+import LineStylefoot from "../../asin5-footer/views/Linestylefoot";
 import logo from "../../../../src/assets/sincLogo2.svg";
 import Logo from "../../../assets/accreditedLogo.svg";
 import VerticalLine from "../../asin5-footer/views/VerticalLine";
-import LineStyle2 from "../../asin5-footer/views/LineStlye2";
+import LineStyle2 from "../../asin5-footer/views/LineStlyefoot2";
 import Logo3 from "../../../assets/gasusLogo.svg";
 import nigeria from "../../../assets/nigeria.svg";
 import Logo4 from "../../../assets/socialLogo.svg";
@@ -35,7 +35,8 @@ const Mainbody = () => {
 						</p>
 					</div>
 				</div>
-				<LineStyle />
+				<LineStyle2/>
+				{/* <LineStylemain/> */}
 				<div className="all-holder">
 					<div className="founder">
 						<p className="become-style">Become A Founder</p>
@@ -119,7 +120,8 @@ const Mainbody = () => {
 						/>
 						<button className="subscribe">subscribe</button>
 					</div>
-					<LineStyle />
+					<LineStylefoot/>
+					{/* <LineStyle1/> */}
 					<div className="footer-holder">
 						<div>
 							<img src={logo} alt="The logo" className="logo" />
