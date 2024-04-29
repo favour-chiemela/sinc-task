@@ -1,0 +1,32 @@
+.holder {
+	background: rgb(245, 245, 245);
+	height: 100vh;
+}
+.border-form {
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 15px;
+	height: 95%;
+	width: 20rem;
+	margin-top: 25px;
+	margin-right: 180px;
+}
+.application {
+	font-weight: bold;
+	font-size: large;
+	margin-left: 20px;
+}
+.first {
+	margin-left: 20px;
+}
+.input{
+	border-color: rgb(120, 120, 120);
+	border-width: 1px;
+    border-radius: 5px;
+	border-style: solid;
+    margin-left: 20px;
+    height: 30px;
+    width: 80%;
+    padding: 3px 9px;
+	/* border: none; */
+}   

@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/asin5-navbar/views/Navbar';
+import Mainbody from './component/asin5-mainbody/views/Mainbody'
+// import Form from './component/asin5-mainbody/views/Form';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+       <Mainbody/>
     </div>
   );
 }

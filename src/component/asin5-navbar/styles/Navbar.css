@@ -1,0 +1,44 @@
+.logo {
+	margin-left: 60px;
+	margin-top: 6px;
+}
+.navbar-ul {
+	list-style: none;
+	margin-top: 26px;
+	display: flex;
+}
+.navbar-link {
+	text-decoration: none;
+	color: #333;
+	font-size: large;
+	font-weight: 550;
+	margin-right: 19px;
+}
+.img-ul-stlye {
+	display: flex;
+}
+.button-holder {
+	margin: auto;
+	margin-right: 50px;
+}
+.SINC {
+	border-radius: 30px;
+	border: none;
+	margin-right: 20px;
+	background-color: rgb(31, 135, 143);
+	color: white;
+	font-size: large;
+	height: 50px;
+	width: 170px;
+	padding: 10px 20px;
+}
+.Apply {
+	border-radius: 30px;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: large;
+	height: 50px;
+	padding: 10px 20px;
+	width: 170px;
+}

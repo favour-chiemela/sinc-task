@@ -1,0 +1,165 @@
+.main-body {
+	background: black;
+	position: relative;
+	overflow-x: hidden;
+}
+.newsletter-div {
+	margin-top: 16px;
+	position: absolute;
+}
+.newsletter {
+	color: white;
+	font-size: 35px;
+	margin-left: 37%;
+	font-weight: 600;
+}
+.latest-wirteup {
+	color: rgb(199, 199, 199);
+	width: 40%;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+.email-div input {
+	border-radius: 20px;
+	border-color: rgb(199, 199, 199);
+	border-width: 1px;
+	border-style: solid;
+	background-color: black;
+	padding: 8px 16px;
+	margin-left: 5%;
+	margin-top: 37px;
+	height: 28px;
+	width: 25%;
+	font-size: 15px;
+}
+.email-input {
+	border: none;
+}
+::placeholder {
+	color: rgb(199, 199, 199);
+}
+.subscribe {
+	border-radius: 30px;
+	border: none;
+	position: relative;
+	background-color: white;
+	color: black;
+	right: 5%;
+	font-size: 18px;
+	font-weight: bold;
+	height: 50px;
+	width: 170px;
+	padding: 10px 20px;
+}
+.logo {
+	margin-left: 15px;
+	margin-top: 16px;
+}
+.sinc-writeup {
+	color: rgb(199, 199, 199);
+	margin-left: 10px;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.footer-holder {
+	display: flex;
+	margin-top: 30px;
+	margin-right: 20px;
+	justify-content: space-evenly;
+}
+.all-caps {
+	color: rgb(199, 199, 199);
+	font-weight: bold;
+}
+.all-small {
+	color: rgb(199, 199, 199);
+	font-size: 15px;
+}
+.accredited-holder{
+    display: flex;
+}
+.whatsapp{
+   margin-top: 30px;
+}
+.guarantee-text {
+	color: rgb(199, 199, 199);
+}
+.partnet-text {
+	color: rgb(199, 199, 199);
+	font-weight: bold;
+}
+.guarantee-holder {
+	margin-left: 30px;
+}
+.styled-span {
+	color: rgb(199, 199, 199);
+	font-weight: bold;
+}
+.christin-writeup {
+	color: rgb(199, 199, 199);
+	width: 45%;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.gurantee-mainholder {
+	display: flex;
+	justify-content: space-between;
+}
+.gasus-logo {
+	display: flex;
+	justify-content: space-evenly;
+}
+.social-logo{
+    margin-top: 20px;
+}
+.gasus-style {
+	margin-top: 17px;
+    margin-left: 30px;
+}
+.copyright {
+	color: rgb(199, 199, 199);
+	font-size: 16px;
+    font-weight: bold;
+	margin-left: 26px;
+}
+.copyright-holder{
+    display: flex;
+
+}
+.priavcy-styling{
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+	font-size: 15px;
+	font-weight: 550;
+	margin-right: 19px;
+    position: relative;
+}
+.priavcy-styling:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(199, 199, 199);
+}
+.privacy-holder{
+    display: flex;
+    list-style: none;
+}
+.web-nigeria{
+    color: rgb(199, 199, 199);
+}
+.nigieria-logo{
+  margin-left: 10px;
+}
+.nigeria{
+    margin-top: 1px;
+}
+.web-holder{
+    display: flex;
+    margin-left: 40%;
+    margin-bottom:10px;
+}
