@@ -34,6 +34,7 @@
 	margin-bottom: 5px;
 }
 .input {
+	/* position: relative; */
 	border-color: #ccc;
 	border-width: 1px;
 	border-radius: 5px;
@@ -41,7 +42,7 @@
 	margin-left: 20px;
 	margin-top: 5px;
 	height: 30px;
-	width: 80%;
+	width: 25vw;
 	padding: 3px 9px;
 }
 .founder {
@@ -65,7 +66,7 @@
 	margin-left: 20px;
 	margin-top: 5px;
 	height: 85px;
-	width: 80%;
+	width: 25vw;
 	padding: 3px 9px;
 }
 .company{
@@ -80,7 +81,7 @@
 	margin-left: 20px;
 	margin-top: 5px;
 	height: 85px;
-	width: 80%;
+	width: 25vw;
 	padding: 3px 9px;
 }
 .companies{
@@ -95,7 +96,7 @@
 	margin-left: 20px;
 	margin-top: 5px;
 	height: 30px;
-	width: 80%;
+	width: 85vw;
 	padding: 3px 9px;
 }
 .application-btn{
