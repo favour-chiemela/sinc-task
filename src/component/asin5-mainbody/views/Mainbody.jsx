@@ -1,7 +1,6 @@
 import React from "react";
 import "../../asin5-mainbody/styles/Mainbody.css";
 import Navbar from "../../asin5-navbar/views/Navbar";
-import LineStyleMain from "../../asin5-mainbody/views/LineStyleMain";
 import LineStyleFooter from "../../asin5-mainbody/views/LineStyleFooter";
 import LineStyleBottom from "../../asin5-mainbody/views/LineStyleBottom";
 import logo from "../../../../src/assets/sincLogo2.svg";
