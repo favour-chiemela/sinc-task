@@ -1,8 +1,8 @@
 import React from "react";
 import "../../asin5-mainbody/styles/Mainbody.css";
 import Navbar from "../../asin5-navbar/views/Navbar";
+import StraightLine from "../../asin5-mainbody/views/StraightLine";
 import LineStyleFooter from "../../asin5-mainbody/views/LineStyleFooter";
-import LineStyle from "./LineStyleMain";
 import LineStyleBottom from "../../asin5-mainbody/views/LineStyleBottom";
 import logo from "../../../../src/assets/sincLogo2.svg";
 import Logo from "../../../assets/accreditedLogo.svg";
@@ -39,7 +39,7 @@ const Mainbody = () => {
 						</p>
 					</div>
 				</div>
-				<LineStyle/>
+				<StraightLine/>
 				<div className="all-holder">
 					<div className="founder">
 						<p className="become-style">Become A Founder</p>
