@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../asin5-footer/styles/LineStylefoot2.css";
+import "../../asin5-mainbody/styles/LineStyleBottom.css"
 
 const LineStylefoot2 = () => {
   return (

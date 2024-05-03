@@ -1,12 +1,12 @@
 import React from "react";
 import "../../asin5-mainbody/styles/Mainbody.css";
 import Navbar from "../../asin5-navbar/views/Navbar";
-// import LineStylemain from "./LineStylemain";
-import LineStylefoot from "../../asin5-footer/views/Linestylefoot";
+import LineStyleMain from "../../asin5-mainbody/views/LineStyleMain";
+import LineStyleFooter from "../../asin5-mainbody/views/LineStyleFooter";
+import LineStyleBottom from "../../asin5-mainbody/views/LineStyleBottom";
 import logo from "../../../../src/assets/sincLogo2.svg";
 import Logo from "../../../assets/accreditedLogo.svg";
 import VerticalLine from "../../asin5-footer/views/VerticalLine";
-import LineStyle2 from "../../asin5-footer/views/LineStlyefoot2";
 import Logo3 from "../../../assets/gasusLogo.svg";
 import nigeria from "../../../assets/nigeria.svg";
 import Logo4 from "../../../assets/socialLogo.svg";
@@ -30,13 +30,16 @@ const Mainbody = () => {
 					</div>
 					<div className="cohort-holder">
 						<p className="cohort2">
-							Not ready to apply this batch?Signup for reminders
+							Not ready to apply this batch?
+							<span className="signup-span">
+								Signup for reminders
+							</span>
+							{"  "}
 							to apply next batch
 						</p>
 					</div>
 				</div>
-				<LineStyle2/>
-				{/* <LineStylemain/> */}
+				<LineStyleMain/>
 				<div className="all-holder">
 					<div className="founder">
 						<p className="become-style">Become A Founder</p>
@@ -49,7 +52,7 @@ const Mainbody = () => {
 						<p className="question-text-style">
 							<span className="question-span">?</span>Have any
 							question about building a startup studio? Check out
-							our FAQ
+							our <span className="faq-span">FAQ</span>
 						</p>
 						<div>
 							<p className="patners-text">
@@ -71,29 +74,59 @@ const Mainbody = () => {
 							<p className="two-way">
 								We are an enterpreneurial ecosytem made up of:
 							</p>
-							<p className="launched">+10 Companies Launched</p>
-							<p className="launched">+100 jobs Created</p>
-							<p className="launched">
-								+$1 Million combined companies valuation
-							</p>
+							<ul className="launched">
+								<li>
+									<a href="pivacy" className="launched">
+										+10 Companies Launched
+									</a>
+								</li>
+							</ul>
+							<ul className="launched">
+								<li>
+									<a href="pivacy" className="launched">
+										+100 jobs Created
+									</a>
+								</li>
+							</ul>
+							<ul className="launched">
+								<li>
+									<a href="pivacy" className="launched">
+										+$1 Million combined companies valuation
+									</a>
+								</li>
+							</ul>
 						</div>
 						<div>
 							<p className="expect">
 								With SIP 1.0 here is what to expect
 							</p>
-							<p className="ideas">
-								We scrutinize all business ideas and ensure that
-								they are viable
-							</p>
-							<p className="provide">
-								We provide you a team of experts to ensure all
-								product mathces the needs of users
-							</p>
-							<p className="funding">
-								We provide you with all the mentoring and
-								funding needed to ensure your startup becomes a
-								success.
-							</p>
+							<ul className="launched">
+								<li>
+									<a href="pivacy" className="launched">
+										We scrutinize all business ideas and
+										ensure that they are viable
+									</a>
+								</li>
+							</ul>
+							<ul className="provide">
+								<li>
+									<a href="pivacy" className="provide">
+										We provide you a team of experts to
+										ensure all product mathces the needs<br/>of
+										users
+									</a>
+								</li>
+							</ul>
+							<ul className="funding">
+								<li>
+									<a href="pivacy" className="funding">
+										We provide you with all the mentoring
+										and funding needed to ensure your
+										startup<br/>becomes a success.
+									</a>
+								</li>
+							</ul>
+							
 						</div>
 					</div>
 					<div>
@@ -120,11 +153,10 @@ const Mainbody = () => {
 						/>
 						<button className="subscribe">subscribe</button>
 					</div>
-					<LineStylefoot/>
-					{/* <LineStyle1/> */}
+					<LineStyleFooter/>
 					<div className="footer-holder">
 						<div>
-							<img src={logo} alt="The logo" className="logo" />
+							<img src={logo} alt="The logo" className="logo-footer" />
 							<p className="sinc-writeup">
 								SINC Patners Lab is a SaaS building and a <br />
 								Marketing Tech startup studio <br />
@@ -203,7 +235,7 @@ const Mainbody = () => {
 							</div>
 						</div>
 					</div>
-					<LineStyle2 />
+					<LineStyleBottom/>
 					<div className="gurantee-mainholder">
 						<div className="guarantee-holder">
 							<p className="guarantee-text">

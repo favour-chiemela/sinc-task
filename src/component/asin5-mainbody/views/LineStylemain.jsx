@@ -1,10 +1,10 @@
 import React from 'react';
-import "../../asin5-mainbody/styles/LineStylemain.css";
+import "../../asin5-mainbody/styles/LineStyleMain.css";
 
-const LineStylemain = () => {
+const LineStyleMain = () => {
   return (
-    <div className="line"></div>
+    <div className="straight"></div>
   );
 }
 
-export default LineStylemain;
+export default LineStyleMain;

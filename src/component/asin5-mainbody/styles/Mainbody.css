@@ -1,6 +1,6 @@
 .whole-container {
 	background: rgb(245, 245, 245);
-	height: 134vh;
+	height: 100%;
 	margin-top: 10px;
 }
 .apply {
@@ -9,6 +9,12 @@
 	margin-left: 35px;
 	display: inline-block;
 	position: absolute;
+}
+.signup-span {
+	border-bottom: 1px solid black;
+}
+.faq-span{
+	border-bottom: 1px solid black;
 }
 .apply-holder {
 	display: flex;
@@ -73,22 +79,34 @@
 	margin-left: 30px;
 	color: rgb(0, 0, 0);
 }
-.launched {
-	margin-left: 30px;
+.launched li{
+	margin-left: 10px;
+	text-decoration: none;
 }
+.launched a{
+	text-decoration: none;
+	color: rgb(120, 120, 120);
+}
+
 .ideas {
 	margin-left: 30px;
 	color: rgb(120, 120, 120);
 }
-.provide {
-	margin-left: 30px;
+.provide a{
+	text-decoration: none;
 	color: rgb(120, 120, 120);
 	width: 59%;
 }
-.funding {
-	margin-left: 30px;
+.provide li{
+	margin-left: 10px;
+}
+.funding a{
 	color: rgb(120, 120, 120);
-	width: 59%;
+	text-decoration: none;
+	width: 30px;
+}
+.funding li{
+	margin-left: 10px;
 }
 .all-holder {
 	display: flex;
@@ -149,9 +167,9 @@
 	width: 170px;
 	padding: 10px 20px;
 }
-.logo {
+.logo-footer{
 	margin-left: 15px;
-	margin-top: 16px;
+	 margin-top: 16px; 
 }
 .sinc-writeup {
 	color: rgb(199, 199, 199);

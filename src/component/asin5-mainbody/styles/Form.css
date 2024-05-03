@@ -1,32 +1,112 @@
 .holder {
 	background: rgb(245, 245, 245);
-	height: 100vh;
+	height: 205vh;
 }
 .border-form {
 	border: 1px solid white;
 	background-color: white;
 	border-radius: 15px;
 	height: 95%;
-	width: 20rem;
+	width: 26rem;
 	margin-top: 25px;
-	margin-right: 180px;
+	margin-right: 70px;
 }
 .application {
 	font-weight: bold;
 	font-size: large;
 	margin-left: 20px;
 }
-.first {
+.first-name {
+	margin-bottom: 5px;
+	margin-top: 39px;
 	margin-left: 20px;
 }
-.input{
-	border-color: rgb(120, 120, 120);
+.last-name {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.email {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.linkedin {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.input {
+	border-color: #ccc;
 	border-width: 1px;
-    border-radius: 5px;
+	border-radius: 5px;
 	border-style: solid;
-    margin-left: 20px;
-    height: 30px;
-    width: 80%;
-    padding: 3px 9px;
-	/* border: none; */
-}   
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 30px;
+	width: 85%;
+	padding: 3px 9px;
+}
+.founder {
+	margin-left: 20px;
+}
+.founder-2 {
+	margin-left: 20px;
+}
+.founder-3 {
+	margin-left: 20px;
+}
+.business{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.business2{
+	border-color: #ccc;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 85px;
+	width: 85%;
+	padding: 3px 9px;
+}
+.company{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.company2{
+	border-color: #ccc;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 85px;
+	width: 85%;
+	padding: 3px 9px;
+}
+.companies{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.companies2{
+	border-color: #ccc;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 30px;
+	width: 85%;
+	padding: 3px 9px;
+}
+.application-btn{
+	border-radius: 25px;
+	border: none;
+	background-color: black;
+	color: white;
+	margin-left: 15px;
+	width: 93%;
+	margin-top: 15px;
+	font-size: 17px;
+	height: 50px;
+	padding: 10px 30px;
+}
